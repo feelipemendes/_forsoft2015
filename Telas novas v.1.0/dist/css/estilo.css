@@ -1,0 +1,317 @@
+﻿html {
+	background: url(../imagens/estrada.jpg) no-repeat center center fixed;  /*imagem fixada no centro e sem repetição */
+	-webkit-background-size: cover; /*regra para a imagem ocupar toda a extensão da página em diferentes navegadores */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: "Myriad Pro";
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin: 0 0 100px; /*regra para centralizar todo o conteúdo do site. Todos os elementos dentro de body vão herdar esta regra */
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-family: "Myriad Pro";
+}
+
+.barraSuperior {
+	height: 60px;
+	background-color: #041227;
+	/*altura e cor da barra superior */
+}
+
+.footer {
+	width: 100%;
+	height: 60px;
+	background-color: #041227;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	/*regras para o tamanho, altura, cor e posicionamento do footer. as três últimas garantem que ele sempre estará no fim da página.*/
+}
+
+
+.logo {
+	margin-top: 10px;
+	float: left;
+	margin-left: 50px;
+	/*regras para o posicionamento da logo */
+}
+
+.menu {
+	float: right;
+	margin-right: 50px;
+	/*regras para o posicionamento do menu */
+}
+
+ul {
+	list-style: none;
+	/*regra para remover o estilo padrão da lista, que são bolinhas do lado de cada item. */
+}
+
+.menu li {
+	display: inline;
+	/*regra para que a lista seja horizontal */
+}
+
+.menu li a {
+	font-family: "Myriad Pro";
+	color: white;
+	text-decoration: none;
+	padding: 25px 5px;
+	/*regras para a fonte utilizada no menu, cor do texto, remoção da decoração padrão (sublinhado) e padding para posicionamento */
+}
+
+.menu li a:hover {
+	background-color: #3d75b3;
+	/*regra para quando o mouse passar em cima de um item do menu. A regra que define o tamanho da caixa a ser colorida é o padding acima. */
+}
+
+p.titulo {
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: normal;
+	font-size: 70pt;
+	color: #234284;
+	margin-left: 295px;
+	-webkit-margin-before: 60px;
+	-webkit-margin-after: 0px;
+	/*regra para a fonte do título, font-weight para "normalizar" a fonte em todos os browsers afim de evitar que algum exiba a fonte de forma diferente, 
+		tamanho da fonte, cor do texto e posicionamento. As regras -webkit- estão sobreescrevendo os atributos padrões da tag <p> que já vem com um espaçamento
+		padrão em volta dela. Before seria equivalente a margin-top e after equivalente a margin-bottom. Ainda existem dois que não foram sobreescritos,
+		que equivalem a margin-left e margin-right.
+	 */
+}
+
+p.texto {
+	font-family: "Myriad Pro";
+	font-weight: normal;
+	text-align: left;
+	color: #234284;
+	margin-left: 300px;
+	margin-top: 0px;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	float: left;
+	/*mesma coisa do título. O float aqui está servindo apenas como um ajudante no posicionamento. Sem ele os elementos estavam se comportando de forma
+		estranha. Não me perguntem o pq disso funcionar, css é magia pura.
+	 */
+}
+
+.divisor {
+	width: 2px;
+	height: 200px;
+	background-color: #006fc0;
+	margin-left: 760px;
+	margin-top: -100px;
+	/*regras para o posicionamento da barrinha divisora */
+}
+
+
+.logoGrande {
+	margin-top: -200px;
+	margin-left: 800px;
+	/*regras para o posicionamento da logo grande */
+}
+
+@media (max-width: 650px) {
+	.menu {
+		margin-left: 180px;
+		position: fixed;
+		/*regras para que o menu se comporte de forma diferente quando a tela for de um tamanho específico (neste caso, de 0 até 650px).
+			A regra @media é o segredo por trás dos sites responsivos. Podemos escrever várias regras para vários tamanhos de telas diferentes
+			e fazer com que elementos específicos se comportem de forma especial nestes tamanhos.
+		 */
+	}
+}
+
+.caixaLogin {
+	width: 700px;
+	background-color: rgba(0, 0, 0, 0.75);
+	margin: 15px auto;
+}
+
+.login {
+	position: relative;
+	margin: 0 auto;
+	width: 280px;
+}
+
+.login input[type=text], input[type=password] {
+	width: 210px;
+	height: 30px;
+}
+
+.login input[type=text] {
+	margin-left: 10px;
+}
+
+.login input[type=password] {
+	margin-left: 7px;
+}
+
+label {
+	font-family: "Myriad Pro";
+	color: white;
+}
+
+.entrar {
+	margin-left: 60px;
+}
+
+form {
+	margin-bottom: 70px;
+}
+
+input[type=submit] {
+	background-color: #00adf3;
+	border: 0px;
+	padding: 2px 10px ;
+	color: white;
+	font-family: "Myriad Pro", Bold;
+	font-size: 15pt;
+	margin-top: -25px;
+}
+
+input[type=button] {
+	background-color: #00adf3;
+	border: 0px;
+	padding: 2px 10px ;
+	color: white;
+	font-family: "Myriad Pro", Bold;
+	font-size: 15pt;
+}
+.botaoJ {
+	background: #00adf3;
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	cursor:pointer;
+	margin-right: 20px;
+	margin-top: 10px;
+	border: 0px;
+}
+
+/*
+.login-help {
+	float: left;
+	margin-left: 200px;
+	margin-top: -25px;
+}
+*/
+.login-help a {
+	color: white;
+	font-family: "Myriad Pro";
+	font-size: 10pt;
+}
+
+
+.logoLogin {
+	margin-top: 100px;
+}
+
+h1 {
+	color: white;
+	font-family: "Myriad Pro";
+}
+
+ul.menu, .menu li, .menu a{ 
+	margin:0px;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+}
+
+.menu a{
+	margin-top:-16px;
+}
+
+.submenu-1 a{
+	margin:0px;
+}
+
+ul.menu ul{ 
+	position:absolute;
+	display:none; 
+}
+
+/* Configurações nivel 1*/
+ul.menu{ 
+	float:left; 
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:15px; 
+	padding:0 5px;
+	
+}
+.menu li{ 
+	float:left; 
+	width:auto; 
+	position:relative;
+}
+.menu li a{ 
+	display:block; 
+	height:10px; 
+	float:left;
+	font-size: 13pt;
+}
+
+/* Configurações nivel 2*/
+.menu li:hover > ul.submenu-1{ 
+	display:block; 
+	top:55px;
+	left:-5px; 
+	padding:5px; 
+	width:100px; 
+}
+
+.menu ul.submenu-1 a{  
+	width:65px; 
+	padding:15px 20px 0px; 
+	background:#051529; 
+	height: 35px;
+}
+
+.menu ul.submenu-1 a:hover{  
+	background:#3d75b3; 
+}
+
+.menuItem {
+	margin-top: 0px !important;
+}
+
+.caixaPesq {
+
+	width: 1030px;
+	background-color: rgba(0, 0, 0, 0.75);
+	margin: 15px auto;
+
+}
+
+table#tblConsulta{
+	margin: 0 auto;
+}
+
+table#tblConsulta td.cabecalh{
+	background-color: rgba(5,21,41,.85);
+	color: white;
+	font-weight: 700;
+}
+
+table#tblConsulta td{
+	width: 100px;
+	height: 18px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .65);
+	padding: 15px;
+}
+
+/*No geral a página está muito hardcoded nos posicionamentos, ou seja, eu coloquei tudo muito bem definido por pixels, o que não é uma prática
+	lá muito boa. Mas como a página tem poucos elementos que não devem mesmo sair do lugar, eu preferi desta forma. Se alguem quiser experimentar
+	outras formas, como porcentagem, ou brincar com o @media, ou realmente fazer o que quiser na página, sintam-se à vontade. Se alguém fizer algo
+	que julgue ter melhorado o trabalho, falem comigo e com os líderes, que aí a gente vê se tá realmente tudo certinho e coloca a versão melhorada
+	no projeto.) 
+ */
