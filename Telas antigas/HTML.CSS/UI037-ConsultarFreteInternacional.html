@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>DigiMon</title>
+	<link rel="icon" type="image/ico" href="img/logo.png">
+	<link href="css/estilo.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div id="topo">
+		<a href="inicioAdministradorMinisterio.html" id="logo"><img src="img/logo.png" alt="DigiMon"></a>
+		<a href="inicioAdministradorMinisterio.html" id="nomeSistema">DigiMon - Digital Monitoring</a>
+		<ul class="botao-topo">
+			<li>
+				<a href="#" id="nomeUsuario">Agente Receita ▼</a>
+			</li>
+		</ul>
+	</div>
+	
+	<div id="sidemenu" class="sidemenu">
+		<ul class="menu-ativo"> 
+			<li><a href="#">Usuários</a> 
+				<ul> 
+					<li><a href="#">Cadastar</a></li> 
+					<li><a href="#">Alterar</a></li> 
+					<li><a href="#">Excluir</a></li> 
+					<li><a href="#">Pesquisar</a></li> 
+				</ul> 
+			</li>
+			<li><a href="#">Fretes</a> 
+				<ul> 
+					<li><a href="#">Cadastar</a></li> 
+					<li><a href="#">Alterar</a></li> 
+					<li><a href="#">Excluir</a></li> 
+					<li><a href="#">Pesquisar</a></li> 
+				</ul> 
+			</li>
+			
+			<li><a href="#">Postos</a> 
+				<ul> 
+					<li><a href="#">Cadastar</a></li> 
+					<li><a href="#">Alterar</a></li> 
+					<li><a href="#">Excluir</a></li> 
+					<li><a href="#">Pesquisar</a></li> 
+				</ul> 
+			</li>
+			
+			<li><a href="#">Relatórios</a> 
+				<ul>  
+					<li><a href="UI019-ConsultarRelatorioDeRodovia.html">Consultar</a></li> 
+				</ul> 
+			</li>
+			
+			<li><a href="#">Consultar</a> 
+				<ul>
+				
+					<li><a href="#">Usuários</a></li> 
+					<li><a href="#">Fretes</a></li> 
+					<li><a href="#">Motoristas</a></li> 
+					<li><a href="#">Veículos de Carga</a></li> 
+					<li><a href="#">Ocorrências</a></li> 
+					<li><a href="#">Postos</a></li> 
+					<li><a href="#">Rodovias</a></li>
+					<li><a href="#">Relatórios</a></li>
+
+				</ul> 
+			</li>
+
+		</ul>
+			</div>
+	
+	<div id="centro">
+	
+		<h1><a style="text-align:center" title="Permanent link to this item">Consultar Frete Internacional</a></h1>
+							
+	<div>
+		<form action="/search" method="get">
+				<input type="text" name="internationalfrete">
+				<input type="submit" value="Pesquisar">
+				<br><br>
+				<label for="elapsedtime">Tempo estimado:</label><br>
+				<input type="text" name="time" readonly="readonly"><br>
+				<label for="driver">Motorista:</label><br>
+				<input type="text" name="motorista" readonly="readonly"><br>
+				<label for="transporter">Transportador:</label><br>
+				<input type="text" name="transportador" readonly="readonly"><br>
+				<label for="veicle">Veículo:</label><br>
+				<input type="text" name="veiculo" readonly="readonly"><br>
+				<br><br>
+				<button type="button">Voltar</button>
+		</form>
+		
+	</div>
+	
+</body>
+</html>

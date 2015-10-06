@@ -1,0 +1,39 @@
+###################.net#############################
+
+UI004.1-PesquisaFrete-TAC -  (Número do Frete e Nome do Destinatário)
+UI008.1-AlterarVeiculo-TAC - (Placa)
+UI015.2.1-PesquisarUsuario-AdmMinisterio (Número do ID e Nome Completo)
+UI020.1-PesquisarMotorista-AdmPRF ( Nome Completo CPF)
+UI021.1-PesquisarVeiculoAdmPRF (Placa)
+UI022.1-PesquisaFreteAdmPRF (Número do Frete e Nome do Destinatário)
+UI025.1-ConsultarPIF-AdmPRF (ID do Posto e Nome da Rodovia)
+UI027.1-ConsultarUsuario-AdmPRF (Número do ID e Nome Completo)
+UI031.1-ConsultarMotorista-AgentePRF (Nome Completo e CPF)
+UI032.1-ConsultarFrete-AgentePRF (Número de Frete e Nome do Destinatário)
+UI033.1-ConsultarVeiculo-AgentePRF (Id do Veículo e Placa)
+UI043.1-ConsultarFrete-AgenteReceita (Número do Frete e Nome do Destinatário)
+UI044.1-ConsultarTETI-AgenteReceita (ID do TETI e RNTRC)
+UI076.1-ConsultarUsuarioPostoPesagem-AdmDNIT (ID do Usuário e ID do Posto)
+UI079.1-ConsultarPostoDePesagem-AdmDNIT (ID do Posto e Nome da Rodovia)
+UI083.1-ConsultarCamera-AdmDNIT (ID da Câmera e ID do Posto)
+UI087.1-ConsultarBalança-AdmDNIT (ID da Balança e ID do Posto)
+UI090.1-ConsultaUsuario-AdmDNIT (Número do ID e Nome Completo)
+UI094-ConsultarRodovia-AgenteDNIT(Nome e Estado)
+UI098-ConsultarPostoPesagem-AgenteDNIT (ID do Posto e Nome da Rodovia)
+
+#################JAVA##########################
+
+UI042.1-ConsultarTNTI-AgenteReceita (ID do TNTI e RNTRC) -  Robson Junior
+
+UI102-ConsultarCamera-AgenteDNIT (ID da Câmera e ID do Posto)
+UI106-ConsultarBalanca-AgenteDNIT (ID da Balança e ID do Posto)
+UI126-ConsultarUsuario-AgenteANTT (Número do ID e Nome Completo)
+UI130-ConsultarPostoPedagio-AgenteANTT (ID do Posto e Nome da Rodovia)
+UI151.1-PesquisaConsultarTNTI-AdmANTT (ID do TNTI e RNTRC)
+UI152.1-PesquisaConsultarPedagio-AdmANTT (ID do Posto e Nome da Rodovia)
+UI153.1-PesquisaConsultarTransportadorCTCeETC-AdmANTT (ID do Transportador e CNPJ)
+UI154.1-PesquisaConsultarTransportadorAutonomoTAC-AdmANTT (Nome Completo e CPF)
+UI155.1-PesquisaConsultarTransportadorCTCeETC-AgenteANTT (ID do Transportador e CNPJ)
+UI156.1-PesquisaConsultarTransportadorAutonomoTAC-AgenteANTT (Nome Completo e CPF)
+UI157.1-PesquisaConsultarPedagio-AgenteANTT (ID do Posto e Nome da Rodovia)
+UI158.1-PesquisaConsultarTNTI-AgenteANTT (ID do TNTI e RNTRC)

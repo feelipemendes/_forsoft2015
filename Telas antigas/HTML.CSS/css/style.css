@@ -1,0 +1,202 @@
+html, body, div, span, applet, object, iframe,
+p, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, fieldset, ol, ul, li, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+/*Por favor respeitar as indicações nos comentários e nas públicações. Trabalhos fora do solicitado serão descartados!
+NÃO EDITE O CSS/ NÃO EDITE O CSS/ NÃO EDITE O CSS/ NÃO EDITE O CSS/ NÃO EDITE O CSS
+Caso encontre algum problema, contacte o Guilherme Favoreto, Gustavo Brito ou Deyvison Ramos*/
+
+h1 {
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+#conatiner {
+	min-height:100%;
+	position:relative;
+}
+
+/*Aqui começa o topo */
+#header {
+    height:45px;
+	padding:5px;
+	background-color:#4d68a1;	
+	border-bottom: 1px solid #1e3a70;
+	position:fixed;
+	width:100%;
+	top:0px;
+}
+
+#nomeSistema {
+	color: #fff;
+	position: relative;
+	top: -15px;
+	font-size: 18px;
+}
+
+#nomeUsuario{
+	margin-top:-65px;
+	margin-right:-15px;
+	float:right;
+}
+
+.botao-topo a:hover{
+	background-color: #1e3a70;
+	height:15.5px;
+}
+
+#logo img{
+	width: 45px;
+	height: 45px;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+.header li {
+	color:#fff;
+	height:25px;
+}
+
+.header ul {
+	list-style-type:none;
+}
+
+.header ul li {
+	padding: 10px;
+}
+
+.header a {
+	text-decoration: none;	
+}
+
+.header li a {
+	color:#fff;
+	padding:20px;
+}
+/*Aqui termina o topo*/
+
+/*Aqui começa o menu lateral*/
+#sidemenu {
+    background-color: #2b519d;
+	width:300px;	
+	border: 2px solid #1e3a70;
+	height:1000px;
+	position:fixed;
+	top:55px;
+}
+
+.sidemenu ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	width: 150px;
+	list-style-type:none;
+	background-color: #2b519d;
+	}	
+	
+	
+.sidemenu ul li {
+	position: relative;
+	list-style-type:none;
+	width:150px;
+	color: #fff;
+	border: 0;
+	background-color: #2b519d;
+	}
+	
+.sidemenu li ul {
+	position: absolute;
+	left: 149px;
+	top: 0;
+	display: none;
+	background-color: #2b519d;
+	color: #fff;
+	border: 0;
+	}
+
+.sidemenu ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background-color: #2b519d;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	border: 0;
+	}
+
+.sidemenu li:hover ul { 
+		display: block;
+}
+
+.menu-ativo a:hover {
+	background-color: #1e3a70;
+}
+
+.sidemenu.ativo ul li{
+	background-color: #1e3a70;
+}
+
+/* Aqui termina o menu lateral*/
+
+/*Aqui começa o centro */
+#contents{
+	margin-top:90px;	
+	margin-left:1em auto;
+	text-align: center;
+}
+
+#Tudo{
+	width:720px; 
+margin: 0 auto; 
+text-align:left;
+border:0px 
+}
+
+.fe {
+	float:left;
+}
+
+.fr{
+	margin-left:50%;
+}
+
+
+
+/*Aqui termina o centro */
+
+/*Aqui começa o rodapé */
+#footer {
+    background-color:grey;
+    color:white;
+    text-align:right;
+    padding:5px;
+	width:100%;
+	height:15px;
+	position:absolute;
+	bottom:0;
+	left:0px;
+}
+/*Aqui termina o rodapé */
+
+/*Por favor respeitar as indicações nos comentários e nas públicações. Trabalhos fora do solicitado serão descartados!
+NÃO EDITE O CSS/ NÃO EDITE O CSS/ NÃO EDITE O CSS/ NÃO EDITE O CSS/ NÃO EDITE O CSS
+Caso encontre algum problema, contacte o Guilherme Favoreto, Gustavo Brito ou Deyvison Ramos*/
