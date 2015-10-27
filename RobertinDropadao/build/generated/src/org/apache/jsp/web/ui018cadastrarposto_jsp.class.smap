@@ -1,0 +1,22 @@
+SMAP
+ui018cadastrarposto_jsp.java
+JSP
+*S JSP
+*F
++ 0 ui018cadastrarposto.jsp
+web/ui018cadastrarposto.jsp
++ 1 head.jsp
+web/head.jsp
++ 2 header.jsp
+web/header.jsp
++ 3 footer.jsp
+web/footer.jsp
+*L
+5,7:51
+5#1,10:58
+11#0,6:68
+5#2,123:74
+16#0,96:197
+5#3,12:293
+111#0,4:305
+*E
